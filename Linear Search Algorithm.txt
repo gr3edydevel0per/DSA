@@ -1,0 +1,7 @@
+Linear Search Algorithm - start searching from start till you find the element thats we are looking for.
+Time complexity 
+Best Case - O(1) | Worst CasE - O(n)-> n is size of array
+
+Questions
+1. Search In String
+2. Search in Certain Range
