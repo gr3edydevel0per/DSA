@@ -1,0 +1,6 @@
+Time Complexity For Binary Search is
+Worst Case - O(log n) |  Best Case - O(1) - found at mid
+Why Binary Search is better than linear search
+Linear Search            |   Binary Search
+For 1 million elements   |  For 1m elements Iterationis log(1m)
+Iteration is 1m          |  Iteration is 6
