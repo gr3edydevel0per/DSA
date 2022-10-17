@@ -1,2 +1,18 @@
 In order to terminate a recursive function we need a  terminating statement and this terminating statement is called baseCONDITIONS 
 Or simply we can say that these are the conditions where recusrion stop maing new calls
+
+
+If there is no base condiiton then the it will keep on calling itself and there will be a point when  the computer memory will exceed the limit
+and it will give stack overflow error 
+
+recursions - function calling itself
+Why recursions?
+it helps us solving bigger complex problem in easier way 
+we can convert recurison solutions into iterations solutions and vice versa
+
+Space complexity is no constant in case of recusrions  because each function call is taking some memory
+example printing 1 to n numbers will have a complexity of O(n)
+ 
+
+
+ Visualizing recusrion recurison Tree
