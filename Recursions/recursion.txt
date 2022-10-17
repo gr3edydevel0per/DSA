@@ -1,0 +1,2 @@
+In order to terminate a recursive function we need a  terminating statement and this terminating statement is called baseCONDITIONS 
+Or simply we can say that these are the conditions where recusrion stop maing new calls
