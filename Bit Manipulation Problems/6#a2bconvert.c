@@ -1,7 +1,5 @@
 // Find the number of bits required to convert a to b
 
-
-
 #include <stdio.h>
 
 int main() {
