@@ -6,7 +6,6 @@ To clear ith bit on a number
 3 perform bitwise and operation between number and the  new mask
 
 */
-
 #include <stdio.h>
 int main(){
 
