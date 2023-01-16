@@ -1,20 +1,27 @@
 #include <stdio.h>
+#include <string.h>
+#include <stdbool.h>
+
 
 int main() {
 int num;
 printf("Please enter the range\n");
 scanf("%d",&num);
-int arr[num+1]={1};
-arr[0]=0;
-arr[1]=0;
+bool arr[num+1];
+memset(arr,true,sizeof(arr));
+
+
 for(int i=2;i*i<=num;i++){
- for(int j=2*i;j<=num;j++){
-   arr[j]=0;
-   }
+        if (arr[i] == true) {
+            for (int j = i * i; j <= num; j += i)
+                arr[j] = false;
+        }
 }
 
 for(int k=0;k<=num;k++){
-    printf("%d -> %d",k,arr[k]);
+   if(arr[k]){
+       printf("%d \t",k);
+   }
 }
 
 }
