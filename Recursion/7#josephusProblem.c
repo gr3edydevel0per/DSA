@@ -7,7 +7,11 @@ int josephus(int people , int num){
 }
 
 int main(){
-  int people=5,num=3;
-  printf("%d",josephus(people,num));
+  int people , num;
+  printf("Please enter number of people : " );
+  scanf("%d",&people);
+  printf("Please enter the counter number : ");
+  scanf("%d",&num);
+  printf("Person won - Number %d",josephus(people,num));
 
 }
