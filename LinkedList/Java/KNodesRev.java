@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Checking {
+public class KNodesRev {
     
     public static void main(String[] args) {
 
@@ -21,6 +21,12 @@ public class Checking {
 
         // Traversing the linked list
         list.traverse();
+
+        // Let's reverse this list
+        list.reverse();
+
+        list.traverse();
+
 
     }
 }
