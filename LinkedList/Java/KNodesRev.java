@@ -8,7 +8,7 @@ public class KNodesRev {
         LinkedList list = new LinkedList();
         Scanner input = new Scanner(System.in);
         
-        int numOfNodes, value;
+        int numOfNodes, value, k;
 
         System.out.print("Enter the number of nodes: ");
         numOfNodes = input.nextInt();
@@ -21,12 +21,14 @@ public class KNodesRev {
 
         // Traversing the linked list
         list.traverse();
-
         // Let's reverse this list
-        list.reverse();
+        // list.reverse();
+        // list.traverse();
 
-        list.traverse();
+        System.out.print("Enter the value of k: ");
+        k = input.nextInt();
 
+        kNodesReverse(k);
 
     }
 }

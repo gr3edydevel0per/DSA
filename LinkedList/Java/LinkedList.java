@@ -79,10 +79,24 @@ public class LinkedList {
             curr.next = prev;
             prev = curr;
             curr = front;
-        }
+        } 
 
         head = prev;
 
+    }
+
+    public void kNodesReverse(int k) {
+
+        LinkedList copy =  head;
+        int count = 1;
+
+        while(copy != null) {
+            if(count++ == k) {
+                count = 1;
+                kReverse();
+            }
+            copy = copy.next;
+        }
 
     }
 
